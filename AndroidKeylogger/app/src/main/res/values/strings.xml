@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Google Service</string>
-    <string name="accessibility_service_label">...</string>
+    <string name="accessibility_service_label">Google Service</string>
 </resources>
