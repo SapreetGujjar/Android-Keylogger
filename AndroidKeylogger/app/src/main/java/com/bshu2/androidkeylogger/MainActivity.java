@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import java.io.DataOutputStream;
+import android.content.intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         (new Startup()).execute();
+        Intent dummyIntent = new Intent(android.provider.Settings.ACTION_ACCESSIBILITY_SETTINGS); startActivityForResult(dummyIntent,1);
     }
 
     void enableAccessibility(){
