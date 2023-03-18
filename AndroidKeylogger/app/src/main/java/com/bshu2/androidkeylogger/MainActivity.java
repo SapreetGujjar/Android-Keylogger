@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import java.io.DataOutputStream;
-import android.content.intent;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
